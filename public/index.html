@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+</head>
+<body class="font-karla">
+  <main class="min-h-screen bg-light_gray grid place-items-center pl-10 pr-10 pt-20 pb-20">
+    <section class="max-w-[640px] w-full min-h-[480px] shadow-xl grid overflow-hidden rounded-lg">
+      <div class="bg-white p-7 grid gap-4">
+        <h1 class="text-2xl text-cyan font-bold">Join our community</h1>
+        <div class="grid gap-3">
+          <p class="text-bright_yellow font-bold">30-day, hassle-free money back guarantee</p>
+          <p class="text-grayish_blue">
+            Gain access to our full library of tutorials along with expert code reviews. 
+            Perfect for any developers who are serious about honing their skills.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2">
+        <div class="bg-cyan p-7 grid gap-5">
+          <p class="font-bold text-white">Monthly Subscription</p>
+          <div class="">
+            <p class="flex space-x-3 items-center">
+              <span class="text-white font-bold text-3xl">&dollar;29</span>
+              <span class="text-white text-opacity-40">per month</span>
+            </p>
+            <p class="text-white text-opacity-80">Full access for less than &dollar;1 a day</p>
+          </div>
+          <button class="bg-bright_yellow w-full h-[50px] rounded-md text-white font-bold shadow-xl">Sign Up</button>
+        </div>
+        <div class="bg-cyan bg-opacity-70 p-7 grid gap-4">
+          <p class="text-white font-bold">Why Us</p>
+          <p class="text-white text-opacity-60">
+            Tutorials by industry experts
+            Peer &amp; expert code review
+            Coding exercises
+            Access to our GitHub repos
+            Community forum
+            Flashcard decks
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
